@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Intelligent Robot System for Quoridor
-date: Oct.2017-Jun.2018
+date: 2017-9-12 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: quoridor.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
