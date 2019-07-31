@@ -5,7 +5,7 @@ categories: ''
 tags: U.C.Berkeley
 img: track.jpg
 ---
-Nowadays, for automation driving, perception, planning and decision is of high significance. Our pro-ject is aimed at building an interaction dataset from bird's eye view, to demonstrate naturalistic motions of various traffic participants in a variety of highly inter-active driving scenarios.
+Nowadays, for automation driving, perception, planning and decision is of high significance. Our project is aimed at building an interaction dataset from bird's eye view, to demonstrate naturalistic motions of various traffic participants in a variety of highly interactive driving scenarios.
 
 ###General Introduction
 In our project, I have taken three parts of the work.1.Object detection for both vehicles and pedestrians.2.Object tracking for pedestrian. 3.Self-merging algorithm and manual verification GUI for verification.
