@@ -2,6 +2,7 @@
 title: Volunteered in a summer camp
 layout: post
 tags: Nankangzhuang Village
+img: tofriend.jpg
 ---
 From Jul.1st, 2017 to Jul.20th, 2017, I volunteered as a scientific teacher in a summer camp in Nankangzhuang Village, Hebei Province, China. Our team consisted of 13 memebers. And our goal was to cultivate children's overall ability like cooperation and creativity. The figure below shows our team.
 
