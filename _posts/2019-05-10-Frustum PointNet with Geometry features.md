@@ -3,6 +3,7 @@ title: Frustum PointNet with Geometry features
 layout: post
 tags: U.C.Berkeley
 img: frustum.jpg
+categories: ''
 ---
 3D object detection is a popular topic for autonomous driving. Most methods for 3D object detection is based on LIDAR information, while Frustum PointNets is a novel method to combine LIDAR and image information for de-tection. Currently, most 3D object detection algorithms take raw point cloud as input without any preprocessing. It’s often overlooked how the 3D structure of point cloud may help for 3D instance segmentation and detection. 
 
