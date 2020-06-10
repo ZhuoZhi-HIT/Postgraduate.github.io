@@ -108,7 +108,7 @@ az * vx - ax * vz
 {ax * vy - az * vx}
 \end{array}} \right]
 $$
-where  $\left[{% raw %} {{a_x},{a_y},{a_z}}{% endraw %} \right]$ is the gravity vector measured by sensors, and  $\left[ {% raw %}{{e_x},{e_y},{e_z}}{% endraw %} \right]$ is the error vector of two coordinate systems.
+where  ${% raw %}\left[ {{a_x},{a_y},{a_z}} \right]{% endraw %}$ is the gravity vector measured by sensors, and  ${% raw %}\left[ {{e_x},{e_y},{e_z}} \right]{% endraw %}$ is the error vector of two coordinate systems.
 
 ③ The gyroscope is compensated and corrected by the error vector through a PI controller. The integral error of the gyroscope is the fundamental source of error in the body coordinate system. 
 ### (3) Cascade  PID controller
