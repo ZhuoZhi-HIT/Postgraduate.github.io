@@ -19,6 +19,7 @@ The external forces and moments experienced by the quadrotor UAV include three i
 ③ Torsional${M_i} (i=1, 2, 3, 4)$produced by rotor rotation.
 
 The linear motion equation is defined by 
+
 $$
 m\ddot r = \left[ \begin{array}{c}
 0\\
