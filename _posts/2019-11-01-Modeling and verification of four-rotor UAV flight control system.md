@@ -53,6 +53,7 @@ q\\
 r
 \end{array} \right],
 $$
+
 where $L$ is distance from the rotor centre to the mass centre of UAV,  $I$ is inertia matrix,  $p$ , $q$ and $r$ are components of triaxial angular velocity in the body coordinate system.
 ### (2) Mahony filter
 Mahony filter is utilized as attitude algorithm. The core idea is based on predictive-correction, given as follows.
