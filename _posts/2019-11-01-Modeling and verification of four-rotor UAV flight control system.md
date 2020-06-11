@@ -178,6 +178,10 @@ The test objective is to study the overshoot, response speed and regression erro
 Experimental data of real platform can follow the simulated waveforms well, and no runaway or oscillation occurs. Due to sensor noise and unavoidable environmental factors, there are small glitches in the measured data. The control system is accompanied with overshoot, which does not exceed 1 degree.
 The regression error does not exceed 1 degree in the end of each instruction cycle. And the delay of controller response is less than 10ms. The correlation of three sets of comparative data are 0.9098, 0.9192, and 0.9688 respectively. Therefore, it can be considered that the output of simulation model and real platform in dynamic attitude control experiment is consistent.
 
+The test video is as follow:
+
+
+
 
 
 
