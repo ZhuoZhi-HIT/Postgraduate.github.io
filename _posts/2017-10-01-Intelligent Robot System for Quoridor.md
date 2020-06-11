@@ -25,5 +25,5 @@ I attended this project in 2019 International Summer School organized by HIT.  I
 
 ![16]({{site.baseurl}}/assets/img/els3.jpg)
 
-**You can find the project files [here**](https://github.com/ZhuoZhi-HIT/-Tetris)
+**You can find the project files [here]**(https://github.com/ZhuoZhi-HIT/-Tetris)
 
