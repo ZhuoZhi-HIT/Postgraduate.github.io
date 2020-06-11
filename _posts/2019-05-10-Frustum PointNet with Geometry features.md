@@ -2,7 +2,7 @@
 title: The Review of Related Entropy Theories Application in Condition Monitoring of Rotating Machineries
 layout: post
 tags: U.C.Berkeley
-img: shiyantai.PNG
+img: shang.PNG
 categories: ''
 ---
 ## Introduce
@@ -29,7 +29,7 @@ In this case study, we carry out the comparison between the observation method a
 
 By observing these two figures, it can be seen that the predicted RUL in the second picture is close to the true RUL, which means that these experimental results are better.
 
-**You can find more detailed research in the [paper]()**
+**You can find more detailed research in the [paper](https://github.com/ZhuoZhi-HIT/Postgraduate.github.io/blob/master/assets/img/entropy.pdf)**
 
 
 
