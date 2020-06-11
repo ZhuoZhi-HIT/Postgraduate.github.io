@@ -117,7 +117,7 @@ where  ${% raw %}\left[ {{a_x},{a_y},{a_z}} \right]{% endraw %}$ is the gravity 
 ### (3) Cascade  PID controller
 A double-loop cascade PID controller with integral separation. Take the ROL angle as an example, the diagram of control block is shown below ：
 
-![](C:\Users\Coronation\Desktop\Personal Website\Postgraduate.github.io\assets\img\PIDcontrol.PNG)
+![1]({{site.baseurl}}/assets/img/PIDcontrol.PNG)
 
 
 When the deviation is large, the integral term is cleared. When the deviation is small, the integral term is turned on, which can achieve rapid dynamic response and stable static control.
