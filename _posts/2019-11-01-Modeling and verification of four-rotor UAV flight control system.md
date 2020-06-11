@@ -124,7 +124,7 @@ When the deviation is large, the integral term is cleared. When the deviation is
 ## Flight controller design( software & hardware)
 ### (1) Software design
 All software functions are divided into several tasks, such as upper computer communication, sensor data reading and processing, attitude solution, attitude control, external input capture, etc.  Priorities are assigned to tasks. Timer interrupts are used as start flags for tasks. The flow chart of system software is shown blew：
-![2]({{site.baseurl}}assets/img/software_design.PNG)
+![2]({{site.baseurl}}/assets/img/software_design.PNG)
 
 Several main tasks are analysed as follows.
 
@@ -164,7 +164,7 @@ The test objective is to identify the effect of the variable height control. The
 
 The height data measured in simulation model and real platform are shown below:
 
-![gaoduduibi](C:\Users\Coronation\Desktop\Personal Website\Postgraduate.github.io\assets\img\gaoduduibi.PNG)
+![gaoduduibi]({{site.baseurl}}/assets/img/gaoduduibi.PNG)
 
 The curve of height data measured in real platform has the same trend as the curve of height data measured in simulation model. The correlation coefficient between two data sets is **0.9794**, which indicates a strong relationship.
 ### (2) Dynamic attitude control experiment
