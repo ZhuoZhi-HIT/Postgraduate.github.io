@@ -115,14 +115,16 @@ where  ${% raw %}\left[ {{a_x},{a_y},{a_z}} \right]{% endraw %}$ is the gravity 
 
 ③ The gyroscope is compensated and corrected by the error vector through a PI controller. The integral error of the gyroscope is the fundamental source of error in the body coordinate system. 
 ### (3) Cascade  PID controller
-A double-loop cascade PID controller with integral separation. Take the ROL angle as an example, the diagram of control block is shown below .
-！[Normal]({{site.baseurl}}/assets/img/PIDcontrol.PNG)
+A double-loop cascade PID controller with integral separation. Take the ROL angle as an example, the diagram of control block is shown below ：
+
+![](C:\Users\Coronation\Desktop\Personal Website\Postgraduate.github.io\assets\img\PIDcontrol.PNG)
+
 
 When the deviation is large, the integral term is cleared. When the deviation is small, the integral term is turned on, which can achieve rapid dynamic response and stable static control.
 ## Flight controller design( software & hardware)
 ### (1) Software design
-All software functions are divided into several tasks, such as upper computer communication, sensor data reading and processing, attitude solution, attitude control, external input capture, etc.  Priorities are assigned to tasks. Timer interrupts are used as start flags for tasks. The flow chart of system software is shown blew.
-！[Normal]({{site.baseurl}}/assets/img/software_design.PNG)
+All software functions are divided into several tasks, such as upper computer communication, sensor data reading and processing, attitude solution, attitude control, external input capture, etc.  Priorities are assigned to tasks. Timer interrupts are used as start flags for tasks. The flow chart of system software is shown blew：
+![software_design](C:\Users\Coronation\Desktop\Personal Website\Postgraduate.github.io\assets\img\software_design.PNG)
 
 Several main tasks are analysed as follows.
 
@@ -136,39 +138,42 @@ The Direct Memory Access (DMA) transmission mode is used for wireless communicat
 
 ③ Attitude algorithm and attitude control
 
-Mahony filter was used for attitude algorithm. First order complementary filter was utilized for height calculation. The final output of the attitude control is the motor control PWM amount, which contains five inputs, as shown below.
-！[Normal]({{site.baseurl}}/assets/img/OUTPUT.PNG)
+Mahony filter was used for attitude algorithm. First order complementary filter was utilized for height calculation. The final output of the attitude control is the motor control PWM amount, which contains five inputs, as shown below：
+![OUTPUT](C:\Users\Coronation\Desktop\Personal Website\Postgraduate.github.io\assets\img\OUTPUT.PNG)
 
 ### (2) Hardware design
-The MCU in this system is STM32F103RCT6. The sensors used are MPU9250 attitude sensor (with built-in gyroscope, accelerometer, magnetometer)(later improved to Mpu6050 + Ak8975), SPL06 barometer. The block diagram of hardware design is shown below.
+The MCU in this system is STM32F103RCT6. The sensors used are MPU9250 attitude sensor (with built-in gyroscope, accelerometer, magnetometer)(later improved to Mpu6050 + Ak8975), SPL06 barometer. The block diagram of hardware design is shown below：
 
-！[Normal]({{site.baseurl}}/assets/img/Hardware_diagram.PNG)
+![Hardware_diagram](C:\Users\Coronation\Desktop\Personal Website\Postgraduate.github.io\assets\img\Hardware_diagram.PNG)
 
 The PCB diagram and the schematic diagram of the flight controller is shown below:
 
-！[Normal]({{site.baseurl}}/assets/img/pcb.PNG)
-！[Normal]({{site.baseurl}}/assets/img/yuanli.PNG)
 
-The drone is shown below
-！[Normal]({{site.baseurl}}/assets/img/xuke.PNG)
+![pcb](C:\Users\Coronation\Desktop\Personal Website\Postgraduate.github.io\assets\img\pcb.PNG)
+
+![yuanli](C:\Users\Coronation\Desktop\Personal Website\Postgraduate.github.io\assets\img\yuanli.PNG)
+
+The drone is shown below：
+![xuke](C:\Users\Coronation\Desktop\Personal Website\Postgraduate.github.io\assets\img\xuke.PNG)
 #这里可以加上一个测试视频
+
 ## Experiment 
 ### (1) Hight control experiment
 The test objective is to identify the effect of the variable height control. The height control instructions are shown below:
-！[Normal]({{site.baseurl}}/assets/img/gaoduzhilin.PNG)
+![gaoduzhilin](C:\Users\Coronation\Desktop\Personal Website\Postgraduate.github.io\assets\img\gaoduzhilin.PNG)
 
 The height data measured in simulation model and real platform are shown below:
 
-！[Normal]({{site.baseurl}}/assets/img/gaoduduibi.PNG)
+![gaoduduibi](C:\Users\Coronation\Desktop\Personal Website\Postgraduate.github.io\assets\img\gaoduduibi.PNG)
 
 The curve of height data measured in real platform has the same trend as the curve of height data measured in simulation model. The correlation coefficient between two data sets is **0.9794**, which indicates a strong relationship.
 ### (2) Dynamic attitude control experiment
 
 The test objective is to study the overshoot, response speed and regression error. The desired angle input is set randomly. The angle data measured in simulation model and real platform are shown below:
 
-！[Normal]({{site.baseurl}}/assets/img/duibi1.PNG)
+![duibi1](C:\Users\Coronation\Desktop\Personal Website\Postgraduate.github.io\assets\img\duibi1.PNG)
 
-！[Normal]({{site.baseurl}}/assets/img/duibi2.PNG)
+![duibi2](C:\Users\Coronation\Desktop\Personal Website\Postgraduate.github.io\assets\img\duibi2.PNG)
 
 Experimental data of real platform can follow the simulated waveforms well, and no runaway or oscillation occurs. Due to sensor noise and unavoidable environmental factors, there are small glitches in the measured data. The control system is accompanied with overshoot, which does not exceed 1 degree.
 The regression error does not exceed 1 degree in the end of each instruction cycle. And the delay of controller response is less than 10ms. The correlation of three sets of comparative data are 0.9098, 0.9192, and 0.9688 respectively. Therefore, it can be considered that the output of simulation model and real platform in dynamic attitude control experiment is consistent.
