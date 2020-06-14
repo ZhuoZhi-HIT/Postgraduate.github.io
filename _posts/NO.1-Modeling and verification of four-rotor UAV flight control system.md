@@ -2,7 +2,7 @@
 title: Modeling and verification of four-rotor UAV flight control system
 layout: post
 categories: ''
-tags: ''
+tags: '2019.07-2019.11'
 img: Flight_control_model.PNG
 ---
 ## Introduce
