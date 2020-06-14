@@ -124,6 +124,7 @@ When the deviation is large, the integral term is cleared. When the deviation is
 ## Flight controller design( software & hardware)
 ### (1) Software design
 All software functions are divided into several tasks, such as upper computer communication, sensor data reading and processing, attitude solution, attitude control, external input capture, etc.  Priorities are assigned to tasks. Timer interrupts are used as start flags for tasks. The flow chart of system software is shown blew：
+
 ![2]({{site.baseurl}}/assets/img/software_design.PNG)
 
 Several main tasks are analysed as follows.
@@ -146,15 +147,17 @@ The MCU in this system is STM32F103RCT6. The sensors used are MPU9250 attitude s
 
 ![4]({{site.baseurl}}/assets/img/Hardware_diagram.PNG)
 
-The PCB diagram and the schematic diagram of the flight controller is shown below:
+The first version of the drone , the improved PCB diagram and the schematic diagram of the flight controller is shown below:
+
+![pcb]({{site.baseurl}}/assets/img/feiji.jpg)
 
 
 ![pcb]({{site.baseurl}}/assets/img/pcb.PNG)
 
 ![yuanli]({{site.baseurl}}/assets/img/yuanli.PNG)
 
-The drone is shown below：
-![xuke]({{site.baseurl}}/assets/img/xuke.PNG)
+ Several videos during testing are shown below：
+
 #这里可以加上一个测试视频
 
 ## Experiment 
