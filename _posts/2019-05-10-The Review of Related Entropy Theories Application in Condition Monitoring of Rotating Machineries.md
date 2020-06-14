@@ -1,7 +1,7 @@
 ---
 title: The Review of Related Entropy Theories Application in Condition Monitoring of Rotating Machineries
 layout: post
-tags: U.C.Berkeley
+tags: 
 img: shang.PNG
 categories: ''
 ---

@@ -149,7 +149,7 @@ The MCU in this system is STM32F103RCT6. The sensors used are MPU9250 attitude s
 
 The first version of the drone , the improved PCB diagram and the schematic diagram of the flight controller is shown below:
 
-![pcb]({{site.baseurl}}/assets/img/feiji.jpg)
+![pc]({{site.baseurl}}/assets/img/feiji.jpg)
 
 
 ![pcb]({{site.baseurl}}/assets/img/pcb.PNG)
@@ -183,7 +183,11 @@ The regression error does not exceed 1 degree in the end of each instruction cyc
 
 The test video is as follow:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wpdrFlkSEkM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UTT_gcVPreg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 

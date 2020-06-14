@@ -2,7 +2,7 @@
 title: Research on fault diagnosis method of core components of industrial robot
 layout: post
 categories: ''
-tags: U.C.Berkeley
+tags: 
 img: shiyantai.PNG
 ---
 ## Introduce
