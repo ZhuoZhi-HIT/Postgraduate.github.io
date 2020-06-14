@@ -19,9 +19,13 @@ I attended this project in 2019 International Summer School organized by HIT.  I
 
 ## Some photos
 
+Some photos during debugging and displaying are shown below:
+
 ![14]({{site.baseurl}}/assets/img/els1.jpg)
 
 ![15]({{site.baseurl}}/assets/img/els2.jpg)
+
+The certificate is shown below:
 
 ![16]({{site.baseurl}}/assets/img/els3.jpg)
 

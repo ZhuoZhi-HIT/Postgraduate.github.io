@@ -2,7 +2,7 @@
 title: Modeling and verification of four-rotor UAV flight control system
 layout: post
 categories: ''
-tags: '2019.07-2019.11'
+tags: ''
 img: Flight_control_model.PNG
 ---
 ## Introduce
@@ -156,10 +156,6 @@ The first version of the drone , the improved PCB diagram and the schematic diag
 
 ![yuanli]({{site.baseurl}}/assets/img/yuanli.PNG)
 
- Several videos during testing are shown below：
-
-#这里可以加上一个测试视频
-
 ## Experiment 
 ### (1) Hight control experiment
 The test objective is to identify the effect of the variable height control. The height control instructions are shown below:
@@ -186,9 +182,7 @@ The test video is as follow:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wpdrFlkSEkM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UTT_gcVPreg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 
 
