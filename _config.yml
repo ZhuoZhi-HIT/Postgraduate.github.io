@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Harbin Institute of Technology
 author-img: HIT.jpg # add your photo
-about-author: I mainly did some research about UAV flight control system design & modeling, fault diagonisis etc. # add description
+about-author: I mainly do some research about UAV flight control system design & modeling, fault diagonisis etc. # add description
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
