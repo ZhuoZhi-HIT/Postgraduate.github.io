@@ -1,5 +1,5 @@
 ---
-title: Modeling and verification of four-rotor UAV flight control system
+title: Modeling and verification of the quadrotor flight control system
 layout: post
 categories: ''
 tags: ''
